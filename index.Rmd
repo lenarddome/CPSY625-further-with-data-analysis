@@ -1,0 +1,164 @@
+---
+title:  "Advanced R"
+subtitle: "Deeper into the World of Quantitive Research with R"
+author: "Lenard Dome"
+date: "`r format(Sys.time(), '%b %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    css: ["libs/default.css", "libs/default-fonts.css"]
+    seal: true 
+    self_contained: true
+    nature:
+      ratio: "21:11"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(emo)
+library(fontawesome)
+```
+
+class: middle center inverse
+
+**10.00** Quick Introduction (30 min)
+
+**10.35** Follow on worksheets (approx. 45 minutes)
+
+**11.15** Take a break and recharge (15 mins)
+
+**11.30** Continue with worksheets (approx. 1 hour and 15 minutes)
+
+**12.45** Workshop ends
+
+---
+
+class: top left inverse
+
+# What do we focus on today?
+
+Today we will explore more advanced topics in data analysis.
+
+1. Experimental Design and Data Preprocessing
+2. Counting Responses (Contingency Tables)
+3. Within-Subject Differences and Interactions (ANOVA)
+4. Statistical Predictions (Regression, Linear Models)
+
+---
+
+class: top left inverse
+
+# Experimental Design
+
+---
+
+class: top left inverse
+
+# Data Preprocessing
+
+---
+
+class: top left inverse
+
+# Contingency Tables
+
+### Problem
+
+### Experimental Design
+
+### Statistics
+
+---
+
+class: top left inverse
+
+# Bayesian Anova
+
+### Problem
+
+### Experimental Design
+
+### Statistics
+
+---
+
+class: top left inverse
+
+# Regression
+
+### Problem
+
+### Experimental Design
+
+### Statistics
+
+---
+
+class: top left inverse
+
+# Contacts
+
+If you have any questions about R, statistics, research in general, do not hesitate to contact me:
+
+`r emo::ji("man")` lenard.dome@plymouth.ac.uk
+
+
+* `r emo::ji("chart")` Slides are availabe at [lenarddome.github.io/teaching](https://lenarddome.github.io/teaching/)
+* `r emo::ji("notebook")` All other material, including notes, can be found on [GitHub `r fontawesome::fa("github")`](https://github.com/lenarddome/CPSY622-introduction-to-data-analysis)
+
+<!-- style -->
+
+<style>
+
+body {
+  background: #2e3440;
+}
+
+h1.title {
+  color: #a3be8c;
+}
+
+h1.subtitle {
+  font-size: 42px;
+}
+
+.container{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+}
+
+div.sourceCode {
+  background-color: #2e3440;
+}
+
+.sourceCode {
+  background-color: #393f4b;
+}
+
+.reveal section img {
+  border: 30px solid #e0e1e2;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.reveal p {
+  text-align: left;
+}
+
+.reveal ul {
+  display: block;
+}
+
+.reveal ol {
+  display: block;
+}
+
+</style>

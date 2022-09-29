@@ -16,6 +16,13 @@ h2 {
 h3 {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 300;
+  color: #FD971F;
+}
+
+h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 300;
+  color: #FD971F;
 }
 
 .remark-code, .remark-inline-code {

@@ -5,10 +5,10 @@ a, a > code {
 
 .footnote {
   position: absolute;
-  bottom: 3em;
-  padding-right: 4em;
+  bottom: 1em;
+  padding: 1em;
   font-size: 75%;
-  line-height: 15%;
+  line-height: 10%;
 }
 .remark-code-line-highlighted     { background-color: #f3f3f3; }
 
@@ -40,7 +40,7 @@ a, a > code {
 }
 
 
-.inverse h2, .inverse h3 {
+.inverse h2, .inverse h3,{
   color: #f3f3f3;
 }
 
@@ -79,6 +79,7 @@ blockquote {
 }
 
 .remark-slide table {
+  margin: auto;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }

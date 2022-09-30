@@ -75,99 +75,6 @@ class: top left inverse
 
 # Contingency Tables
 
-Imagine that there was a large influx of new kids in nurseries in Devon.
-And you need to develop a set of activities for nurseries in different communities across different towns.
-The goal of this activity to nurture friendships and inclusion at such a crucial developmental age.
-
-This is not an easy task.
-You nonetheless need to make sure that you allocate your resources efficiently.
-The first thing that you probably want to determine is **how many activities you need to design.**
-It is highly likely that at least one of those nurseries will have different culture than the other.
-
-.footnote[
-
-.bold[*] This scenario bears resemblance to the [paper](https://doi.org/10.1177/0165025408089271) and data that you will see in the relevant worksheet later.
-
-]
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
-#### Qualitative Analysis
-
-Score those interviews according to *content aspects of friendship reasoning*.
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
-#### Qualitative Analysis
-
-Score those interviews according to *content aspects of friendship reasoning*.
-
-#### Statistics
-
-**Is the distribution of scores different across nurseries?**
-
----
-
-class: top left inverse
-
-# Contingency Tables
-
-While designing the questionnaires, you imagine your results will likely be organised like this:
-
-|           | activity | feelings | helping | length | norms | trust |
-| :-------- | -------: | -------: | ------: | -----: | ----: | ----: |
-| Nursery 1 | 47       | 33       | 52      | 28     | 28    | 8     |
-| Nursery 2 | 75       | 19       | 26      | 58     | 6     | 12    |
-| Nursery 3 | 78       | 17       | 13      | 62     | 6     | 20    |
-| Nursery 4 | 55       | 27       | 42      | 44     | 13    | 15    |
-
-<br>
-
-The statistics we will look at for this type of data are [<b><span class="texhtml">χ<sup>2</sup></span> test</b>](https://en.wikipedia.org/wiki/Chi-squared_test) and Bayes Factor for Contingency Tables **(preferred method)**.
 
 ---
 
@@ -175,11 +82,7 @@ class: top left inverse
 
 # Bayesian Anova
 
-### Problem
-
-### Experimental Design
-
-### Statistics
+## Interactions
 
 ---
 
@@ -187,11 +90,6 @@ class: top left inverse
 
 # Regression
 
-### Problem
-
-### Experimental Design
-
-### Statistics
 
 ---
 
@@ -205,6 +103,7 @@ The last worksheet is part of [lifesavR](https://benwhalley.github.io/lifesavR/)
 
 * [Relationships](https://www.andywills.info/rminr/chi.html): Frequency and contingency tables. Mosaic plots. Traditional chi-square test. Bayesian test.
 * [Within-subject differences](https://www.andywills.info/rminr/anova1.html): data preprocessing (pivoting and mutating). One-factor within-subject Bayesian ANOVA. Pairwise comparisons, multiple comparisons.
+* [Understanding Interactions](https://www.andywills.info/rminr/anova2.html): Learn what an interaction is, and learn how to do line plots at the same time.
 * [Making Predictions](https://benwhalley.github.io/lifesavR/session-6.html): linear regression, scatterplots, three main assumptions for regression.
 
 ---

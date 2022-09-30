@@ -90,6 +90,11 @@ class: top left inverse
 
 # Regression
 
+.footnote[
+
+.bold[*] Gordon, R.A. (1968). Issues in Multiple Regression. American Journal of Sociology, 73, 592 - 616.
+
+]
 
 ---
 
@@ -114,6 +119,7 @@ class: top left inverse
 
 * [Contingency Tables for More Thorough Comparisons](https://danmaclean.github.io/bayes_factors/bayes_proportion.html): in case you want to compare the groups of counts in multiple different ways, this brief worksheet gives some suggestions on how to do it.
 * [Learning Statistics with R](https://learningstatisticswithr.com/book/): This is a free online textbook that also has a downloadable [PDF](https://learningstatisticswithr.com/) version. The book emphasizes statistical techniques that we try to avoid nowadays, but it nonetheless provides insight into the inferential statistical thinking we all practice.
+* [Bayesian ANOVA for PROS](https://www.andywills.info/rminr/anova5.html):  doing two-factor within-subjects Bayesian ANOVA better.
 
 ---
 

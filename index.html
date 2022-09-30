@@ -167,7 +167,7 @@ class: center, middle, inverse, title-slide
 ### Lenard Dome
 ]
 .date[
-### Sep 29, 2022
+### Sep 30, 2022
 ]
 
 ---
@@ -229,99 +229,6 @@ class: top left inverse
 
 # Contingency Tables
 
-Imagine that there was a large influx of new kids in nurseries in Devon.
-And you need to develop a set of activities for nurseries in different communities across different towns.
-The goal of this activity to nurture friendships and inclusion at such a crucial developmental age.
-
-This is not an easy task.
-You nonetheless need to make sure that you allocate your resources efficiently.
-The first thing that you probably want to determine is **how many activities you need to design.**
-It is highly likely that at least one of those nurseries will have different culture than the other.
-
-.footnote[
-
-.bold[*] This scenario bears resemblance to the [paper](https://doi.org/10.1177/0165025408089271) and data that you will see in the relevant worksheet later.
-
-]
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
-#### Qualitative Analysis
-
-Score those interviews according to *content aspects of friendship reasoning*.
-
----
-
-class: middle left inverse
-
-#### Problem
-
-We need to determine if each nursery needs their own intervention.
-Are their different cultures within the nurseries?
-
-#### Experimental Design
-
-Interview children on friendship, intimacy, and closeness (e.g. What do you do with your best friend?)
-
-#### Qualitative Analysis
-
-Score those interviews according to *content aspects of friendship reasoning*.
-
-#### Statistics
-
-**Is the distribution of scores different across nurseries?**
-
----
-
-class: top left inverse
-
-# Contingency Tables
-
-While designing the questionnaires, you imagine your results will likely be organised like this:
-
-|           | activity | feelings | helping | length | norms | trust |
-| :-------- | -------: | -------: | ------: | -----: | ----: | ----: |
-| Nursery 1 | 47       | 33       | 52      | 28     | 28    | 8     |
-| Nursery 2 | 75       | 19       | 26      | 58     | 6     | 12    |
-| Nursery 3 | 78       | 17       | 13      | 62     | 6     | 20    |
-| Nursery 4 | 55       | 27       | 42      | 44     | 13    | 15    |
-
-&lt;br&gt;
-
-The statistics we will look at for this type of data are [&lt;b&gt;&lt;span class=&quot;texhtml&quot;&gt;χ&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt; test&lt;/b&gt;](https://en.wikipedia.org/wiki/Chi-squared_test) and Bayes Factor for Contingency Tables **(preferred method)**.
 
 ---
 
@@ -329,11 +236,7 @@ class: top left inverse
 
 # Bayesian Anova
 
-### Problem
-
-### Experimental Design
-
-### Statistics
+## Interactions
 
 ---
 
@@ -341,11 +244,11 @@ class: top left inverse
 
 # Regression
 
-### Problem
+.footnote[
 
-### Experimental Design
+.bold[*] Gordon, R.A. (1968). Issues in Multiple Regression. American Journal of Sociology, 73, 592 - 616.
 
-### Statistics
+]
 
 ---
 
@@ -359,6 +262,7 @@ The last worksheet is part of [lifesavR](https://benwhalley.github.io/lifesavR/)
 
 * [Relationships](https://www.andywills.info/rminr/chi.html): Frequency and contingency tables. Mosaic plots. Traditional chi-square test. Bayesian test.
 * [Within-subject differences](https://www.andywills.info/rminr/anova1.html): data preprocessing (pivoting and mutating). One-factor within-subject Bayesian ANOVA. Pairwise comparisons, multiple comparisons.
+* [Understanding Interactions](https://www.andywills.info/rminr/anova2.html): Learn what an interaction is, and learn how to do line plots at the same time.
 * [Making Predictions](https://benwhalley.github.io/lifesavR/session-6.html): linear regression, scatterplots, three main assumptions for regression.
 
 ---
@@ -369,6 +273,7 @@ class: top left inverse
 
 * [Contingency Tables for More Thorough Comparisons](https://danmaclean.github.io/bayes_factors/bayes_proportion.html): in case you want to compare the groups of counts in multiple different ways, this brief worksheet gives some suggestions on how to do it.
 * [Learning Statistics with R](https://learningstatisticswithr.com/book/): This is a free online textbook that also has a downloadable [PDF](https://learningstatisticswithr.com/) version. The book emphasizes statistical techniques that we try to avoid nowadays, but it nonetheless provides insight into the inferential statistical thinking we all practice.
+* [Bayesian ANOVA for PROS](https://www.andywills.info/rminr/anova5.html):  doing two-factor within-subjects Bayesian ANOVA better.
 
 ---
 
@@ -379,7 +284,6 @@ class: top left inverse
 If you have any questions about R, statistics, research in general, do not hesitate to contact me:
 
 👨 lenard.dome@plymouth.ac.uk
-
 
 * 💹 Slides are availabe at [lenarddome.github.io/teaching](https://lenarddome.github.io/teaching/)
 * 📓 All other material, including notes, can be found on [GitHub <svg aria-hidden="true" role="img" viewBox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>](https://github.com/lenarddome/CPSY622-introduction-to-data-analysis)

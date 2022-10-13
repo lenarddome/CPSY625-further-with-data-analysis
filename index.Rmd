@@ -51,6 +51,12 @@ Today we will explore more advanced topics in data analysis.
 
 class: middle center inverse
 
+<iframe width="1200" height="600" src="https://www.youtube.com/embed/FN2RM-CHkuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: middle center inverse
+
 # Experimental Design
 
 ![](./assets/fry-meme.jpg)
@@ -63,11 +69,20 @@ class: top left inverse
 
 > Reliable statistics and good experimental design go hand in hand.
 
----
-
-class: top left inverse
+You have to know what statistics you'll need to make sure you have to correct experiment, the right sample size
 
 # Data Preprocessing
+
+80% of researchers time spent on data preprocessing.
+
+* It can be substantially reduced by thinking ahead in the experimental design stages.
+* Preprocessing is just as important as the test that tells you whether your hypothesis is correct.
+
+---
+
+class: middle center inverse
+
+# Remember that data analysis (at least in psychology) is largely about testing hypothesis about your data!
 
 ---
 
@@ -75,14 +90,29 @@ class: top left inverse
 
 # Contingency Tables
 
+## First set of techniques will be relevant for categorical (nominally valued) data.
+
+* Measures are distributed into non-overlapping categories
+* Imagine you ask people to draw a card from a deck
+* Possible draws are: clubs, diamonds, spades, hearts.
+    * *H<sub>0</sub>*: $P = (0.25, 0.25, 0.25, 0.25)$
+    * *H<sub>1</sub>*: $P \neq (0.25, 0.25, 0.25, 0.25)$
+
+#### The goal here is to determine whether your data is random or something more lawful.
 
 ---
 
 class: top left inverse
 
-# Bayesian Anova
+# Analysis of variance - ANOVA
 
-## Interactions
+This is the most used technique in psychology — a special case of regression.
+This also means this is the most misused technique out there.
+
+* It allows comparing *groups* $\geq$ 3.
+* It tests for interactions — differences of the differences between various combinations of groups.
+* $H_0$ : No difference between groups and within groups.
+* $H_1$ : At leats one group is different.
 
 ---
 
@@ -90,11 +120,24 @@ class: top left inverse
 
 # Regression
 
+<br><br><br>
+
+Regression tests for the relationships between a set of variables and outcomes.
+It is a *slightly fancier* version of a simple correlation.
+
+**The goal is to find what is the best.**
+
 .footnote[
 
 .bold[*] Gordon, R.A. (1968). Issues in Multiple Regression. American Journal of Sociology, 73, 592 - 616.
 
 ]
+
+---
+
+class: middle center inverse
+
+![](assets/scatter-linear-regression.png)
 
 ---
 
@@ -106,6 +149,7 @@ Here are the worksheets in the order you should go through them.
 They are part of [RMINR](https://www.andywills.info/rminr/#vbgtr), that has been developed at the University of Plymouth as an in-house teaching material.
 The last worksheet is part of [lifesavR](https://benwhalley.github.io/lifesavR/).
 
+* [Data preprocessing](https://www.andywills.info/rminr/preproc.html): Getting data from lab-based (OpenSesame) experiments into a format closer to something you can actually analyse, in five steps: loading, selecting, filtering, summarising, and combining. Also covers combining data frames, renaming columns.
 * [Relationships](https://www.andywills.info/rminr/chi.html): Frequency and contingency tables. Mosaic plots. Traditional chi-square test. Bayesian test.
 * [Within-subject differences](https://www.andywills.info/rminr/anova1.html): data preprocessing (pivoting and mutating). One-factor within-subject Bayesian ANOVA. Pairwise comparisons, multiple comparisons.
 * [Understanding Interactions](https://www.andywills.info/rminr/anova2.html): Learn what an interaction is, and learn how to do line plots at the same time.

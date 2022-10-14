@@ -176,7 +176,7 @@ If you have any questions about R, statistics, research in general, do not hesit
 `r emo::ji("man")` lenard.dome@plymouth.ac.uk
 
 * `r emo::ji("chart")` Slides are availabe at [lenarddome.github.io/teaching](https://lenarddome.github.io/teaching/)
-* `r emo::ji("notebook")` All other material, including notes, can be found on [GitHub `r fontawesome::fa("github")`](https://github.com/lenarddome/CPSY622-introduction-to-data-analysis)
+* `r emo::ji("notebook")` All other material, including notes, can be found on [GitHub `r fontawesome::fa("github")`](https://github.com/lenarddome/CPSY625-further-with-data-analysis)
 
 <!-- style -->
 
